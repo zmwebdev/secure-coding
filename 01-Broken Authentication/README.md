@@ -4,7 +4,7 @@
 
 ## Ariketa
 
-Login prozesua egiten duen aplikazio seguru bat diseinatu behar da. Formulario bat izango du erabiltzaileak bere izena eta pasahitza sartzeko. Erabiltzailek kredentzial egokiak baldin baditu, aplikazioaren gune nagusira sartuko da, bestela errore mezu bat eta berriro hasierako formulariora berbideratuko da.
+Login prozesua egiten duen aplikazio seguru bat diseinatu behar da. Formulario bat izango du erabiltzaileak bere izena eta pasahitza sartzeko. Erabiltzailek kredentzial egokiak baldin baditu, aplikazioaren gune nagusira sartuko da, bestela errore mezu bat eta berriro hasierako formulariora berbideratuko da. Kontutan hartzekoak: HTTP GET/POST, HTTPS, hash, session, Two-Factor authentication, Oauth2, 
 
 ### Pausoak
 
