@@ -14,17 +14,19 @@ Login prozesua egiten duen aplikazio seguru bat diseinatu behar da. Formulario b
 
 3 - Pasahitza Hash bezal gorde.
 
-4 - MFA-2FA: Two-Factor authentication inplementatu.
+4 - Session babesa.
 
-5 - Robotak ekiditeko sistema. CAPTCHA
+5 - MFA-2FA: Two-Factor authentication inplementatu.
 
-6 - Pasahitza behar ez duten loginak: Oauth, OpenID, ...
+6 - Robotak ekiditeko sistema. CAPTCHA
 
-7 - Informazioa TSL/SSL HTTPS erabiliz bakarrik. Zertifikatuak.
+7 - Pasahitza behar ez duten loginak: Oauth, OpenID, ...
 
-8 - Pasahitza berreskuratzeko prozesua
+8 - Informazioa TSL/SSL HTTPS erabiliz bakarrik. Zertifikatuak.
 
-9 - Besterik: ...
+9 - Pasahitza berreskuratzeko prozesua
+
+10 - Besterik: ...
 
 
 
