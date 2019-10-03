@@ -37,4 +37,7 @@ Puaso bakoitzean aplikazioaren segurtasu arazoak identifikatu eta soluzioak plan
 ## Erreferentziak
 
 - https://medium.com/@richb_/easy-two-factor-authentication-2fa-with-google-authenticator-php-108388a1ea23
+- https://github.com/sonata-project/GoogleAuthenticator
+
+
 
