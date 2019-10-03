@@ -28,4 +28,4 @@ Login prozesua egiten duen aplikazio seguru bat diseinatu behar da. Formulario b
 
 
 
-Puaso bakoitzean aplikazioaren segurtasu arazoak identifikatu eta soluzioak planteatuko dira. Garatu dugun aplikazioa "testeatuko" dugu (keyloger, CSRF, XSS, session, brute force, SSL/TLS decryption, ...) eta dituen zuloak identifikatu ondoren soluzioak inplementatuko dira. 
+Puaso bakoitzean aplikazioaren segurtasu arazoak identifikatu eta soluzioak planteatuko dira. Garatu dugun aplikazioa "testeatuko" dugu (keyloger, CSRF, XSS, session, brute force, SSL/TLS decryption, session hijacking, ...) eta dituen zuloak identifikatu ondoren soluzioak inplementatuko dira. 
