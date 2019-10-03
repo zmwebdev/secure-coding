@@ -1,6 +1,7 @@
 # Broken Authentication
 
 - https://www.owasp.org/index.php/Top_10-2017_A2-Broken_Authentication
+- https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
 
 ## Ariketa
 
@@ -10,4 +11,14 @@ Login prozesua egiten duen aplikazio seguru bat diseinatu behar da. Formulario b
 
 1 - Login aplikazio sinple bat egin: Formulario bat. Datu-base batean taula batean erabiltzaileak sartuak ditu. Pasahitzak bere horretan gordetzen dira.
 
-2 - Aplikazioaren segurtasu arazoak identifikatu eta soluzioak planteatu
+2 - Pasahitzen kontrola. Luzera, asmatzeko zailtasuna ...
+
+3 - Pasahitza Hash bezal gorde.
+
+4 - MFA-2FA: Two-Factor authentication inplementatu.
+
+5 - CAPTCHA
+
+6 - Pasahitza behar ez duten loginak: Oauth, OpenID, ...
+
+Puaso bakoitzean aplikazioaren segurtasu arazoak identifikatu eta soluzioak planteatuko dira. Garatu dugun aplikazioa "testeatuko" dugu (keyloger, CSRF, XSS, session, brute force, SSL/TLS decryption, ...) eta dituen zuloak identifikatu ondoren soluzioak inplementatuko dira. 
