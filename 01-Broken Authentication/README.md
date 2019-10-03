@@ -24,6 +24,8 @@ Login prozesua egiten duen aplikazio seguru bat diseinatu behar da. Formulario b
 
 8 - Pasahitza berreskuratzeko prozesua
 
+9 - Besterik: ...
+
 
 
 Puaso bakoitzean aplikazioaren segurtasu arazoak identifikatu eta soluzioak planteatuko dira. Garatu dugun aplikazioa "testeatuko" dugu (keyloger, CSRF, XSS, session, brute force, SSL/TLS decryption, ...) eta dituen zuloak identifikatu ondoren soluzioak inplementatuko dira. 
