@@ -39,5 +39,4 @@ Puaso bakoitzean aplikazioaren segurtasu arazoak identifikatu eta soluzioak plan
 - https://medium.com/@richb_/easy-two-factor-authentication-2fa-with-google-authenticator-php-108388a1ea23
 - https://github.com/sonata-project/GoogleAuthenticator
 
-
-
+- https://www.sitepoint.com/2fa-in-laravel-with-google-authenticator-get-secure/
