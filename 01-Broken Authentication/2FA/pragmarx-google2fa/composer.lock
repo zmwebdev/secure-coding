@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "11215a87ba5bfd7fc1a13632d7cacbc4",
+    "content-hash": "68b92aff4c70b31ca0a6cb1758f1c0a7",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -259,6 +259,64 @@
                 "google2fa"
             ],
             "time": "2019-09-23T18:30:35+00:00"
+        },
+        {
+            "name": "pragmarx/google2fa-qrcode",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/antonioribeiro/google2fa-qrcode.git",
+                "reference": "fd5ff0531a48b193a659309cc5fb882c14dbd03f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/antonioribeiro/google2fa-qrcode/zipball/fd5ff0531a48b193a659309cc5fb882c14dbd03f",
+                "reference": "fd5ff0531a48b193a659309cc5fb882c14dbd03f",
+                "shasum": ""
+            },
+            "require": {
+                "bacon/bacon-qr-code": "~1.0|~2.0",
+                "php": ">=5.4",
+                "pragmarx/google2fa": ">=4.0"
+            },
+            "require-dev": {
+                "khanamiryan/qrcode-detector-decoder": "^1.0",
+                "phpunit/phpunit": "~4|~5|~6|~7"
+            },
+            "type": "library",
+            "extra": {
+                "component": "package",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PragmaRX\\Google2FAQRCode\\": "src/",
+                    "PragmaRX\\Google2FAQRCode\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Antonio Carlos Ribeiro",
+                    "email": "acr@antoniocarlosribeiro.com",
+                    "role": "Creator & Designer"
+                }
+            ],
+            "description": "QR Code package for Google2FA",
+            "keywords": [
+                "2fa",
+                "Authentication",
+                "Two Factor Authentication",
+                "google2fa",
+                "qr code",
+                "qrcode"
+            ],
+            "time": "2019-03-20T16:42:58+00:00"
         },
         {
             "name": "symfony/polyfill-php56",

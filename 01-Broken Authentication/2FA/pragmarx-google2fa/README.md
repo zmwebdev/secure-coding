@@ -5,5 +5,11 @@
 
 ```
 composer require pragmarx/google2fa
-composer require bacon/bacon-qr-code
+composer require pragmarx/google2fa-qrcode
 ```
+
+## tips and tricks
+
+Imagick php extension:
+- https://oli-the.dev/infrastructure/install-imagick-for-php-on-windows/
+- https://ourcodeworld.com/articles/read/645/how-to-install-imagick-for-php-7-in-ubuntu-16-04
