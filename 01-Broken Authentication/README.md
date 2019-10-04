@@ -14,7 +14,7 @@ begiratu github, google, ... zerbitzuen login prozesuen ezaugarriak.
 
 2 - Pasahitzen kontrola. Luzera, asmatzeko zailtasuna ...
 
-3 - Pasahitza Hash bezal gorde.
+3 - Pasahitza Hash bezal gorde. (Bezeroan pasahitzaren hash egin eta bidali? edo zerbitzariak haseatu?)
 
 4 - Session babesa.
 
