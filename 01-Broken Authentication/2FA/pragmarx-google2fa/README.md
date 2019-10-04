@@ -11,5 +11,7 @@ composer require pragmarx/google2fa-qrcode
 ## tips and tricks
 
 Imagick php extension:
+- https://ourcodeworld.com/articles/read/349/how-to-install-and-enable-the-imagick-extension-in-xampp-for-windows
 - https://oli-the.dev/infrastructure/install-imagick-for-php-on-windows/
+- https://forum.laragon.org/topic/339/tutorial-how-to-install-imagemagick/2
 - https://ourcodeworld.com/articles/read/645/how-to-install-imagick-for-php-7-in-ubuntu-16-04
