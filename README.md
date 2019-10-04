@@ -14,6 +14,27 @@ sudo apt install php7.3 libapache2-mod-php7.3 php-mysql
 Visual Studio Code Remote Development through SSH:
 - https://www.youtube.com/watch?v=lKXMyln_5q4
 
+vscode install extension: Visual Studio Code Remote Development Extension Pack
+
+ssh giltza sortu (windows-en / bezeroan):
+```
+ssh-keygen -t rsa -b 4096 -f %USERPROFILE%/.ssh/remote_ubuntu_rsa
+
+scp -P 22 %USERPROFILE%/.ssh/remote_ubuntu_rsa.pub user@IP_REMOTE_MACHINE:~/key.pub
+```
+
+zerbitzarian - Ubuntu:
+```
+mkdir ~/.ssh
+cat ~/key.pub >> ~/.ssh/authorized_keys
+chmod 600 ~/.ssh/authorized_keys
+rm ~/key.pub
+```
+
+pasahitza EZ jarri!!
+
+
+
 - windows: xampp, laragon, 
 
 ## OWASP
