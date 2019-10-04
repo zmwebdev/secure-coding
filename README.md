@@ -1,5 +1,17 @@
 # secure-coding
 
+## Azpiegitura
+
+- git
+- github / gitlab
+- visualcode / atom
+LAMP:
+- linux: 
+```
+sudo apt install php7.2 libapache2-mod-php7.2 php-mysql
+```
+- windows: xampp, laragon, 
+
 ## OWASP
 
 - https://www.owasp.org
