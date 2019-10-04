@@ -10,6 +10,9 @@ LAMP:
 ```
 sudo apt install php7.2 libapache2-mod-php7.2 php-mysql
 ```
+Visual Studio Code Remote Development through SSH:
+- https://www.youtube.com/watch?v=lKXMyln_5q4
+
 - windows: xampp, laragon, 
 
 ## OWASP
