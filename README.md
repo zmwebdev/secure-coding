@@ -8,6 +8,7 @@
 LAMP:
 - linux: 
 ```
+add-apt-repository ppa:ondrej/php
 sudo apt install php7.2 libapache2-mod-php7.2 php-mysql
 ```
 Visual Studio Code Remote Development through SSH:
