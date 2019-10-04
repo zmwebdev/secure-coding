@@ -20,6 +20,8 @@ ssh giltza sortu (windows-en / bezeroan):
 ```
 ssh-keygen -t rsa -b 4096 -f %USERPROFILE%/.ssh/remote_ubuntu_rsa
 
+pasahitza EZ jarri!!
+
 scp -P 22 %USERPROFILE%/.ssh/remote_ubuntu_rsa.pub user@IP_REMOTE_MACHINE:~/key.pub
 ```
 
@@ -30,8 +32,6 @@ cat ~/key.pub >> ~/.ssh/authorized_keys
 chmod 600 ~/.ssh/authorized_keys
 rm ~/key.pub
 ```
-
-pasahitza EZ jarri!!
 
 
 
