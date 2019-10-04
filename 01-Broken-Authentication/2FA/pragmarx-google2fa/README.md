@@ -15,3 +15,12 @@ Imagick php extension:
 - https://oli-the.dev/infrastructure/install-imagick-for-php-on-windows/
 - https://forum.laragon.org/topic/339/tutorial-how-to-install-imagemagick/2
 - https://ourcodeworld.com/articles/read/645/how-to-install-imagick-for-php-7-in-ubuntu-16-04
+```
+php modulua instalatu:
+
+$ sudo apt-get install php-imagick
+
+ondoren, instalatua dagoen ikusteko:
+
+$ php -m | grep imagick
+```

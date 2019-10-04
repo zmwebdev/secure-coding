@@ -1,5 +1,4 @@
 <?php
-echo "bai";
 require_once 'vendor/autoload.php';
 
 $google2fa = (new \PragmaRX\Google2FAQRCode\Google2FA());

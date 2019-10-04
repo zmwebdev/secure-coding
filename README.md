@@ -32,12 +32,22 @@ sudo apt install php7.3 libapache2-mod-php7.3 php-mysql
 ```
 - windows: xampp, laragon, 
 
+## PHP composer
+
+https://getcomposer.org/
+
 ### Visual Studio Code Remote Development through SSH:
 - https://code.visualstudio.com/docs/remote/ssh
 - https://code.visualstudio.com/docs/remote/troubleshooting#_ssh-tips
 - https://www.youtube.com/watch?v=lKXMyln_5q4
 
 vscode install extension: Visual Studio Code Remote Development Extension Pack
+
+#### ssh login user-password erabiliz
+
+vscode-n F1 -> remote ssh host (idatzi) -> erbiltzailea@makinaren_IP
+
+#### ssh giltza erabiliz
 
 ssh giltza sortu (windows-en / bezeroan):
 ```
@@ -69,6 +79,14 @@ SET REMOTEHOST=your-user-name-on-host@host-fqdn-or-ip-goes-here
 
 scp %USERPROFILE%\.ssh\id_rsa.pub %REMOTEHOST%:~/tmp.pub
 ssh %REMOTEHOST% "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat ~/tmp.pub >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys && rm -f ~/tmp.pub"
+```
+
+## bash prompt shorten
+
+https://askubuntu.com/questions/145618/how-can-i-shorten-my-command-line-bash-prompt
+
+```
+PS1='\u:\W\$ '
 ```
 
 
