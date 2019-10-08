@@ -46,6 +46,17 @@ https://getcomposer.org/
 
 vscode install extension: Visual Studio Code Remote Development Extension Pack
 
+#### AWS erabiliz
+
+makina bat jarri EC2n ubuntu server. Ondoren ```*.pem``` giltza erabili daiteke. horretarako visual code-n F1 sakatu eta ssh ```open configuration file``` aukeratu eta ```.ssh/config``` ondoren. Fitxategian hau jarri:
+```
+Host uni.aws
+    HostName ec2-XXXXXXX.us-east-2.compute.amazonaws.com
+    User ubuntu
+    IdentityFile /home/user/.../AWS/key_name.pem
+```
+ondoren F1 berriz eta ```ssh host``` uni.eus aukeratu eta kitto!!
+
 #### ssh login user-password erabiliz
 
 vscode-n F1 -> remote ssh host (idatzi) -> erbiltzailea@makinaren_IP
