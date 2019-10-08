@@ -19,6 +19,7 @@ Imagick php extension:
 php modulua instalatu:
 
 $ sudo apt-get install php-imagick
+$ sudo systemctl restart apache2
 
 ondoren, instalatua dagoen ikusteko:
 
