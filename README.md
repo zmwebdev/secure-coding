@@ -35,6 +35,13 @@ https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-debia
 
 sudo add-apt-repository ppa:ondrej/php
 sudo apt install php7.3 libapache2-mod-php7.3 php-mysql
+
+cd ~
+git clone <git repo url>
+cd /var/www/html/
+sudo ln -s ~/reponame secure-coding
+
+http://IP/secure-coding
 ```
 - windows: xampp, laragon, 
 
