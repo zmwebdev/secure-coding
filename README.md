@@ -27,10 +27,13 @@ Aplikazioa garatzeko erabili daitezkeen teknologiak:
 LAMP:
 - linux: 
 ```
-apt install mariadb-server
-apt install mysql-client-core-5.7
+sudo apt install mariadb-server
+sudo mysql_secure_installation
 
-add-apt-repository ppa:ondrej/php
+# jarraitu ondorengo gida:
+https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-debian-10
+
+sudo add-apt-repository ppa:ondrej/php
 sudo apt install php7.3 libapache2-mod-php7.3 php-mysql
 ```
 - windows: xampp, laragon, 
