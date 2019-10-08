@@ -49,6 +49,11 @@ http://IP/secure-coding
 
 https://getcomposer.org/
 
+```
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+```
+
 ### Visual Studio Code Remote Development through SSH:
 - https://code.visualstudio.com/docs/remote/ssh
 - https://code.visualstudio.com/docs/remote/troubleshooting#_ssh-tips
