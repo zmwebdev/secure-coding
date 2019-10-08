@@ -24,18 +24,34 @@ Aplikazioa garatzeko erabili daitezkeen teknologiak:
 - git
 - github / gitlab
 - visualcode / atom
+
+
 LAMP:
 - linux: 
 ```
-sudo apt install mariadb-server
-sudo mysql_secure_installation
-
+# Datu basea
 # jarraitu ondorengo gida:
 https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-debian-10
 
+sudo apt install mariadb-server
+sudo mysql_secure_installation
+(root pasahitza ez ezarri)
+
+# db-ko erabiltzaile bat sortu (admin:password)
+sudo mysql
+GRANT ALL ON *.* TO 'admin'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+exit
+
+mysql -u koxme -p
+MariaDB [(none)]> ...
+
+
+# PHP apache
 sudo add-apt-repository ppa:ondrej/php
 sudo apt install php7.3 libapache2-mod-php7.3 php-mysql
 
+# git clone repo eta apache konfigurazioa
 cd ~
 git clone <git repo url>
 cd /var/www/html/
@@ -43,6 +59,7 @@ sudo ln -s ~/reponame secure-coding
 
 http://IP/secure-coding
 ```
+
 - windows: xampp, laragon, 
 
 ## PHP composer
@@ -53,6 +70,10 @@ https://getcomposer.org/
 curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 ```
+
+## PHP Debuger
+
+TODO
 
 ### Visual Studio Code Remote Development through SSH:
 - https://code.visualstudio.com/docs/remote/ssh
