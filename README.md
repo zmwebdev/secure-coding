@@ -27,6 +27,7 @@ Aplikazioa garatzeko erabili daitezkeen teknologiak:
 LAMP:
 - linux: 
 ```
+apt install mysql-client-core-5.7
 add-apt-repository ppa:ondrej/php
 sudo apt install php7.3 libapache2-mod-php7.3 php-mysql
 ```
