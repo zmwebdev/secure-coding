@@ -9,7 +9,6 @@
 - https://www.owasp.org/index.php/Category:OWASP_Top_Ten_2017_Project
 - https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf
 
-
 ## Garatuko ditugun Aplikazioak
 
 Aplikazioa garatzeko erabili daitezkeen teknologiak: 
@@ -140,7 +139,7 @@ PS1='\u:\W\$ '
 
 export PS1="\\w:\$(git branch 2>/dev/null | grep '^*' | colrm 1 2)\$ "
 
-export PS1="\\W:\$(__git_ps1)\[\033[01;34m\] \$\[\033[00m\] "
+export PS1="\\W\$(__git_ps1)\[\033[01;34m\] \$\[\033[00m\] "
 
 export GIT_PS1_SHOWDIRTYSTATE=1 export PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;33m\]$(__git_ps1)\[\033[01;34m\] \$\[\033[00m\] '
 
