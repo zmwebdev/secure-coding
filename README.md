@@ -92,6 +92,8 @@ Host uni.aws
 ```
 ondoren F1 berriz eta ```ssh host``` uni.eus aukeratu eta kitto!!
 
+AWS EC2 ssh key laguntza: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html
+
 #### ssh login user-password erabiliz
 
 vscode-n F1 -> remote ssh host (idatzi) -> erbiltzailea@makinaren_IP
