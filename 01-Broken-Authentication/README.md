@@ -32,7 +32,7 @@ begiratu github, google, ... zerbitzuen login prozesuen ezaugarriak.
 
 
 
-Puaso bakoitzean aplikazioaren segurtasu arazoak identifikatu eta soluzioak planteatuko dira demo baten bitartez. Garatu dugun aplikazioa "testeatuko" dugu (keyloger, CSRF, XSS, session, brute force, SSL/TLS decryption, session hijacking, ...) eta dituen zuloak identifikatu ondoren soluzioak inplementatuko dira.
+Puaso bakoitzean aplikazioaren segurtasu arazoak identifikatu eta soluzioak planteatuko dira demo baten bitartez. Garatu dugun aplikazioa "testeatuko" attack egingo dugu (hash attacks, keyloger, CSRF, XSS, session, brute force, SSL/TLS decryption, session hijacking, ...) eta dituen zuloak identifikatu ondoren soluzioak inplementatuko dira.
 
 Zati bakoitzaren demoa guztiak app batean bilduko dira.
 
