@@ -44,7 +44,7 @@ exit
 
 mysql -u koxme -p
 MariaDB [(none)]> ...
-
+# https://mariadb.com/kb/en/library/documentation/
 
 # PHP apache
 sudo add-apt-repository ppa:ondrej/php
