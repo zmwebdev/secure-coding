@@ -5,3 +5,6 @@ $user = $_POST["name"];
 $password =  $_POST["password"];
 
 
+// mysql koxme:pasahitza
+
+

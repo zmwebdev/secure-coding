@@ -61,6 +61,10 @@ http://IP/secure-coding
 
 - windows: xampp, laragon, 
 
+## Apache error log
+
+```$ tail -f /var/log/apache2/error.log```
+
 ## PHP composer
 
 https://getcomposer.org/
@@ -72,7 +76,7 @@ sudo mv composer.phar /usr/local/bin/composer
 
 ## PHP Debuger
 
-TODO
+- https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug
 
 ### Visual Studio Code Remote Development through SSH:
 - https://code.visualstudio.com/docs/remote/ssh
