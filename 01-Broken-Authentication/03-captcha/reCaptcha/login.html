@@ -1,0 +1,23 @@
+<html>
+<body>
+
+<form action="recaptchav3.php" method="post">
+    <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+    <input type="hidden" name="action" value="validate_captcha">    
+
+    Name: <input type="text" name="user"><br>
+    password: <input type="password" name="password"><br>
+    <input type="submit" value="login">
+</form>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LeHeL8UAAAAAP2aaUpGKQLaEyEvEYycCZLJhcfY"></script>
+<script>
+grecaptcha.ready(function() {
+    grecaptcha.execute('6LeHeL8UAAAAAP2aaUpGKQLaEyEvEYycCZLJhcfY', {action: 'validate_captcha'}).then(function(token) {
+        document.getElementById('g-recaptcha-response').value = token;
+    });
+});
+</script>
+
+</body>
+</html> 

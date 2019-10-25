@@ -1,20 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-<script src="https://www.google.com/recaptcha/api.js?render=6LeHeL8UAAAAAP2aaUpGKQLaEyEvEYycCZLJhcfY"></script>
-<script>
-grecaptcha.ready(function() {
-    grecaptcha.execute('6LeHeL8UAAAAAP2aaUpGKQLaEyEvEYycCZLJhcfY', {action: 'homepage'}).then(function(token) {
-       //...
-    });
-});
-</script>
+<?php
 
-</body>
-</html>
+// https://stackoverflow.com/questions/51507695/google-recaptcha-v3-example-demo
+
+if (isset($_POST['g-recaptcha-response'])) {
+    $captcha = $_POST['g-recaptcha-response'];
+} else {
+    $captcha = false;
+}
+
+if (!$captcha) {
+    //Do something with error
+} else {
+    $secret   = '6LeHeL8UAAAAAK0UZUL-w9FsXBInhGn66-VVUy-9';
+    $response = file_get_contents(
+        "https://www.google.com/recaptcha/api/siteverify?secret=" . $secret . "&response=" . $captcha . "&remoteip=" . $_SERVER['REMOTE_ADDR']
+    );
+    // use json_decode to extract json response
+    $response = json_decode($response);
+    var_dump($response);
+
+    if ($response->success === false) {
+        //Do something with error
+        echo "KO";
+    }
+}
+
+//... The Captcha is valid you can continue with the rest of your code
+//... Add code to filter access using $response . score
+
+if ($response->success==true && $response->score <= 0.5) {
+    //Do something to denied access
+    echo "KO";
+}
+
+echo "Captcha OK";
