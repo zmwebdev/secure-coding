@@ -18,7 +18,7 @@ echo '<img src="'.$inlineUrl.'" />';
 $qrCodeUrl = $google2fa->getQRCodeUrl(
     $companyName,
     $companyEmail,
-    $secretKey
+    $google2fa_secret
 );
 
 echo '<br>' . $qrCodeUrl;
