@@ -7,3 +7,4 @@
 - http://sqlmap.org/
 - https://medium.com/@shubham24patil/sql-injection-to-hack-a-website-and-database-using-sqlmap-tool-in-kali-linux-bb2b4b6ca5f9
 - https://portswigger.net/web-security/sql-injection
+- https://portswigger.net/web-security/sql-injection/cheat-sheet
