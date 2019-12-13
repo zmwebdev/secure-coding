@@ -25,21 +25,23 @@ if ($conn->connect_error) {
 
 // formulariotik bidalitako datuak irakurri
 // leer desde el formulario
-$user =  $_POST['user'];
-$password = $_POST['password'];
+$user =  $_GET['user'];
+$password = $_GET['password'];
 
 //
-$sql = "SELECT * FROM users WHERE user = '$user' and pass = '$password'";
-//echo $sql . "<br>";
+$sql = "SELECT * FROM users WHERE user = '$user' AND pass = '$password'";
+echo $sql . "<br>";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-        echo "erabiltzailea: " . $row["user"]. " / " . $row["pass"]. "<br>";
-    }
-} else {
-    echo "0 results";
+    //echo "OK";
+    //session_start();
+    //$_SESSION["user"]=$user;
+    header("Location: user_info.html");
+
+} else{
+    //echo "KO";
+    header("Location: login.html");
 }
 
 $conn->close();

@@ -18,8 +18,8 @@ CREATE TABLE IF NOT EXISTS salary (
 
 /* insert */
 /* koxme: p1 */
-INSERT INTO users (user, pass, admin) VALUES ('koxme', 'p1', 0); 
-INSERT INTO users (user, pass, admin) VALUES ('admin', 'p2', 1); 
+INSERT INTO users (user, pass, admin) VALUES ('koxme', 'p1', 0);
+INSERT INTO users (user, pass, admin) VALUES ('admin', 'p1', 1);
 
 INSERT INTO salary (user, amount) VALUES ('koxme', 2000); 
 INSERT INTO salary (user, amount) VALUES ('admin', 5000); 

