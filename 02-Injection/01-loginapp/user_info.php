@@ -16,7 +16,7 @@ https://portswigger.net/web-security/sql-injection/union-attacks
 ' UNION select * from users; #'
 ' OR '1'='1' UNION select *, null from salary; #'
 
-'; UPDATE users SET pass='aldatua' WHERE user='admin'; #'  EZ DABIL multiple sql semicolon erabiliz PHP-n arazoa?
+'; UPDATE users SET pass='aldatua' WHERE user='admin'; #'  EZ DABIL multiple sql semicolon erabiliz PHP-k ez du uzten, irakurri https://www.php.net/manual/en/function.mysql-query.php
 */
 
 $servername = "localhost";
