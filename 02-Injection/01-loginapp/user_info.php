@@ -15,6 +15,8 @@ https://portswigger.net/web-security/sql-injection/union-attacks
 ' UNION SELECT table_name, column_name, null FROM information_schema.columns where TABLE_SCHEMA='sql_injection'; #'
 ' UNION select * from users; #'
 ' OR '1'='1' UNION select *, null from salary; #'
+
+'; UPDATE users SET pass='aldatua' WHERE user='admin'; #'  EZ DABIL multiple sql semicolon erabiliz PHP-n arazoa?
 */
 
 $servername = "localhost";
