@@ -9,3 +9,7 @@
 - https://portswigger.net/web-security/sql-injection
 - https://portswigger.net/web-security/sql-injection/cheat-sheet
 - https://www.ptsecurity.com/ww-en/analytics/knowledge-base/how-to-prevent-sql-injection-attacks/
+
+- https://www.exploit-db.com/papers/13045
+
+- http://sqlmap.org/
