@@ -13,3 +13,8 @@
 https://github.com/zmwebdev/secure-coding/issues/4
 
 - https://www.hongkiat.com/blog/automate-create-login-bot-python-selenium/
+
+sqlmap erabiliz captcha duen formulario bat atakatu eta ikusi ea captchak bot-a detektatzen duen:
+
+- http://sqlmap.org/
+
