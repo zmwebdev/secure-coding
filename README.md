@@ -30,7 +30,8 @@ LAMP:
 ```
 # Datu basea
 # jarraitu ondorengo gida:
-https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-debian-10
+# https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-debian-10
+# hau ere: https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-18-04
 
 sudo apt install mariadb-server
 sudo mysql_secure_installation
