@@ -1,0 +1,21 @@
+<html>
+<body>
+
+<!--form action="user_info.php" method="GET"-->
+<form action="user_info_captcha.php" method="POST">
+    Name: <input type="text" name="user"><br>
+    <input type="submit" value="user info">
+</form>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LeHeL8UAAAAAP2aaUpGKQLaEyEvEYycCZLJhcfY"></script>
+<script>
+grecaptcha.ready(function() {
+    grecaptcha.execute('6LeHeL8UAAAAAP2aaUpGKQLaEyEvEYycCZLJhcfY', {action: 'validate_captcha'}).then(function(token) {
+        document.getElementById('g-recaptcha-response').value = token;
+    });
+});
+</script>
+
+
+</body>
+</html> 
