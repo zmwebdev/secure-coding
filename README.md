@@ -141,6 +141,7 @@ ssh %REMOTEHOST% "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat ~/tmp.pub >> ~/.ssh
 
 ```
 dig @resolver1.opendns.com myip.opendns.com +short 'hostname' | head -1
+host myip.opendns.com resolver1.opendns.com
 ```
 
 ## bash prompt shorten
