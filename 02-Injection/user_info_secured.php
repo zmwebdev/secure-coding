@@ -26,7 +26,12 @@ https://stackoverflow.com/questions/60174/how-can-i-prevent-sql-injection-in-php
 https://stackoverflow.com/questions/129677/how-can-i-sanitize-user-input-with-php
 */
 
+/*
+python sqlmap.py "http://.../user_info_secured.php?user=1" -batch --dbs
 
+[WARNING] GET parameter 'user' does not seem to be injectable
+[CRITICAL] all tested parameters do not appear to be injectable ...
+*/
 
 $sql = "SELECT * FROM users WHERE user = ?";
 $stmt = $conn->prepare($sql);

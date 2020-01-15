@@ -82,8 +82,8 @@ if ($conn->connect_error) {
 // formulariotik bidalitako datuak irakurri
 // leer desde el formulario
 
-//$user =  $_GET['user'];
-$user =  $_POST['user'];
+$user =  $_GET['user'];
+//$user =  $_POST['user'];
 
 //
 $sql = "SELECT * FROM users WHERE user = '$user'";
