@@ -22,7 +22,7 @@ Aplikazioa garatzeko erabili daitezkeen teknologiak:
 
 - http://www.dvwa.co.uk/
 - https://portswigger.net/burp
-- 
+- https://support.portswigger.net/customer/portal/articles/1783055-configuring-your-browser-to-work-with-burp
 
 ## Azpiegitura
 
