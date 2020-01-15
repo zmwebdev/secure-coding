@@ -18,6 +18,12 @@ Aplikazioa garatzeko erabili daitezkeen teknologiak:
 - Laravel, Composer, ..., Django, Flask, ..., Spring, ...
 - WEB aplikazioa, Mugikorrentzako app natiboak, ...
 
+## Tresnak
+
+- http://www.dvwa.co.uk/
+- https://portswigger.net/burp
+- 
+
 ## Azpiegitura
 
 - git
