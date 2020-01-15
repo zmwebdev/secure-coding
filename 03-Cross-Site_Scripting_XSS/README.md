@@ -4,8 +4,11 @@
 - https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
 - https://pentest-tools.com/blog/xss-attacks-practical-scenarios/
 - https://thehackrspace.com/cross-site-scripting-xss/
+- https://config9.com/sec/set-httponly-and-secure-on-phpsessid-cookie-in-php/
 
 
 ```
+80 portuan entzun eta print:
+
 # nc -lvp 80
 ``` 

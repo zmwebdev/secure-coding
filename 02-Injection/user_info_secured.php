@@ -18,6 +18,8 @@ if ($conn->connect_error) {
 $user =  $_GET['user'];
 //$user =  $_POST['user'];
 
+// $user = htmlspecialchars($user);
+
 /*
 $user datua "satinize / scape / ..." egin behar da:
 
