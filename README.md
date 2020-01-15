@@ -137,6 +137,12 @@ scp %USERPROFILE%\.ssh\id_rsa.pub %REMOTEHOST%:~/tmp.pub
 ssh %REMOTEHOST% "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat ~/tmp.pub >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys && rm -f ~/tmp.pub"
 ```
 
+## External IP
+
+```
+dig @resolver1.opendns.com myip.opendns.com +short 'hostname' | head -1
+```
+
 ## bash prompt shorten
 
 https://askubuntu.com/questions/145618/how-can-i-shorten-my-command-line-bash-prompt
