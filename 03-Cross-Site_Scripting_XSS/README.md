@@ -6,6 +6,8 @@
 - https://pentest-tools.com/blog/xss-attacks-practical-scenarios/
 - https://thehackrspace.com/cross-site-scripting-xss/
 - https://config9.com/sec/set-httponly-and-secure-on-phpsessid-cookie-in-php/
+- https://www.google.com/search?q=xss+reverse+shell
+- https://medium.com/@hackbotone/cross-site-scripting-stored-blog-e3b699b39897
 
 News:
 - https://www.cbronline.com/news/tiktok-vulnerabilities
