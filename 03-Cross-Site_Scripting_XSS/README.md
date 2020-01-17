@@ -20,4 +20,4 @@ News:
 
 ## XSS test
 
-<script>alert('kaixo')</script>
+![Uh oh...]("onerror="alert('XSS'))
