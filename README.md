@@ -149,9 +149,10 @@ ssh %REMOTEHOST% "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat ~/tmp.pub >> ~/.ssh
 - https://www.cloudflare.com/ (DNS, SSL full strict proxy)
 - https://certbot.eff.org/ (SSL cert)
 
+```
 [web browser]<--SSL certbot cert -->[cloud flare]<-- SSL cloudflare cert-->[OVH]
 [web browser]<--SSL cloudflare cert-->[cloud flare]<--SSL cloudflare cert-->[OVH]
-
+```
 
 ## External IP
 
