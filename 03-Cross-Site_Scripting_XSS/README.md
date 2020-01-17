@@ -17,3 +17,7 @@ News:
 
 # nc -lvp 80
 ``` 
+
+## XSS test
+
+<script>alert('kaixo')</script>
