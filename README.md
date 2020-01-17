@@ -143,6 +143,16 @@ scp %USERPROFILE%\.ssh\id_rsa.pub %REMOTEHOST%:~/tmp.pub
 ssh %REMOTEHOST% "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat ~/tmp.pub >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys && rm -f ~/tmp.pub"
 ```
 
+## HTTPS
+
+- https://www.ovh.com/world/
+- https://www.cloudflare.com/ (DNS, SSL full strict proxy)
+- https://certbot.eff.org/ (SSL cert)
+
+[web browser]<--SSL certbot cert -->[cloud flare]<-- SSL cloudflare cert-->[OVH]
+[web browser]<--SSL cloudflare cert-->[cloud flare]<--SSL cloudflare cert-->[OVH]
+
+
 ## External IP
 
 ```
