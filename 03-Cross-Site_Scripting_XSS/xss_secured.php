@@ -11,4 +11,4 @@ $_SESSION["user"]='koxme';
 
 echo "erabilpena: http://.../?q=X <br>";
 
-echo "<p>" . $_GET["q"] . "</p>";
+echo "<p>" . htmlspecialchars($_GET["q"]) . "</p>";
