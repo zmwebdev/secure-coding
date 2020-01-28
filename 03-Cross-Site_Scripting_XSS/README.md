@@ -17,7 +17,3 @@ News:
 
 # nc -lvp 80
 ``` 
-
-## XSS test
-
-![Uh oh...]("onerror="alert('XSS'))
