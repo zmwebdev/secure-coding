@@ -4,7 +4,9 @@
 
 - https://developer.android.com/topic/security/best-practices
 
-## Cordova Phonegap
+## Cordova Phonegap Ionic
 
 - https://cordova.apache.org/docs/en/latest/guide/appdev/security/
 - https://github.com/microsoft/vscode-cordova
+- https://ionicframework.com
+- https://github.com/oren/docker-cordova
