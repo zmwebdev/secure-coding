@@ -8,8 +8,7 @@
 - https://config9.com/sec/set-httponly-and-secure-on-phpsessid-cookie-in-php/
 - https://www.google.com/search?q=xss+reverse+shell
 - https://medium.com/@hackbotone/cross-site-scripting-stored-blog-e3b699b39897
-
-News:
+- https://www.adslzone.net/2020/02/05/fallo-whatsapp-robar-archivos/
 - https://www.cbronline.com/news/tiktok-vulnerabilities
 
 ```
