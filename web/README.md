@@ -148,6 +148,7 @@ ssh %REMOTEHOST% "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat ~/tmp.pub >> ~/.ssh
 - https://www.ovh.com/world/
 - https://www.cloudflare.com/ (DNS, SSL full strict proxy)
 - https://certbot.eff.org/ (SSL cert)
+- https://letsencrypt.org/
 
 ```
 [web browser]<--SSL certbot cert -->[cloud flare]<-- SSL cloudflare cert-->[OVH]
